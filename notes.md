@@ -15,3 +15,11 @@ i am planning on building a responsive web app with an awesome blur ui.
 
 1. hero ui as the ui library
 2. TODO: pokemon data api
+
+# optimizations
+
+1. don't load data again and again (use localstorage to save)
+2. don't call api on user typing (use debouncing techniques)
+3. lazy load the images if possible
+4. the ui should be responsive
+5. show loading spinner while data is being fetched
