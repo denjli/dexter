@@ -25,6 +25,7 @@ export default function SinglePokemon() {
           // width={270}
         />
       </CardBody>
+      {/* TODO: Fix styling */}
       <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small z-10 bg-red-100">
         <p className="text-tiny text-black/80">Available soon.</p>
         <Button
