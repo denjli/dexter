@@ -44,13 +44,9 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
-            <main className="relative container mx-auto max-w-7xl pt-16 px-6 flex-grow bg-[url('/doodle.jpg')] bg-repeat bg-center bg-auto">
-              <div className="absolute inset-0 bg-white/80"></div>
-              {/* overlay to make the doodle transparent */}
-              <div className="relative z-10">
-                {/* Your content here */}
-                {children}
-              </div>
+            <main className="relative container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+              {/* Your content here */}
+              {children}
             </main>
 
             <footer className="w-full flex items-center justify-center py-3">
