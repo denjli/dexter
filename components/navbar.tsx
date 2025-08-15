@@ -1,7 +1,6 @@
 import {
   Navbar as HeroUINavbar,
   NavbarContent,
-  NavbarMenuToggle,
   NavbarBrand,
   NavbarItem,
 } from "@heroui/navbar";
@@ -20,7 +19,7 @@ export const Navbar = () => {
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Logo />
-            <p className="font-bold text-red-500">Dexter</p>
+            <p className="font-bold text-red-500">dexter</p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
@@ -45,7 +44,7 @@ export const Navbar = () => {
             startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"
           >
-            Hackathon
+            hackathon
           </Button>
         </NavbarItem>
       </NavbarContent>
@@ -55,7 +54,6 @@ export const Navbar = () => {
           <GithubIcon className="text-default-500" />
         </Link>
         <ThemeSwitch />
-        <NavbarMenuToggle />
       </NavbarContent>
     </HeroUINavbar>
   );
