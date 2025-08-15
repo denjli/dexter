@@ -1,4 +1,5 @@
-import { title, subtitle } from "@/components/primitives";
+import { title } from "@/components/primitives";
+import Search from "@/components/Search";
 
 export default function Home() {
   return (
@@ -8,9 +9,8 @@ export default function Home() {
         <span className={title({ color: "violet" })}>pokemon&nbsp;</span>
         <br />
         <span className={title()}>gallery</span>
-        <div className={subtitle({ class: "mt-4" })}>
-          search for pokemons using name or global pokemon id
-        </div>
+        <div className="py-4"></div>
+        <Search />
       </div>
     </section>
   );
