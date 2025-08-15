@@ -1,5 +1,6 @@
 import { title } from "@/components/primitives";
 import Search from "@/components/Search";
+import SinglePokemon from "@/components/SinglePokemon";
 
 export default function Home() {
   return (
@@ -11,6 +12,14 @@ export default function Home() {
         <span className={title()}>gallery</span>
         <div className="py-4"></div>
         <Search />
+      </div>
+      <div className="container bg-red-100 grid p-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-4">
+        <SinglePokemon />
+        <SinglePokemon />
+        <SinglePokemon />
+        <SinglePokemon />
+        <SinglePokemon />
+        <SinglePokemon />
       </div>
     </section>
   );
